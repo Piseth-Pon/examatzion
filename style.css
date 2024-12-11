@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+body {
+  background-color: #344C64;
+  color: white;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+  padding: 25px;
+  border-bottom: 10px solid white;
+}
+
+header h4 {
+  font-size: 32px;
+  letter-spacing: 4px;
+  text-shadow: 0 0 10px black;
+}
+
+ol, ul {
+  margin-left: 25px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 24px;
+  width: fit-content;
+  margin: 15px auto;
+  border-bottom: 4px solid white;
+}
+
+.wrapper {
+  padding: 25px;
+  display: grid;
+  gap: 25px;
+}
+
+.content {
+  /* display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.scratch-link {
+  /* background-color: lightseagreen; */
+
+  display: grid;
+  gap: 15px;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.scratch-link a {
+  text-align: center;
+  font-size: 48px;
+  color: white;
+  text-decoration: none;
+}
