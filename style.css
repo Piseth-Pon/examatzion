@@ -63,11 +63,16 @@ ol, ul {
   align-items: center;
   justify-items: center;
   align-content: center;
+
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 15px;
 }
 
 .scratch-link a {
   text-align: center;
   font-size: 48px;
-  color: white;
+  color: red;
   text-decoration: none;
+
 }
